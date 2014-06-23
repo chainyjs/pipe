@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# pipe action for [ChainyJS](http://chainy.bevry.me)
+# pipe action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -33,7 +33,7 @@ Chainy action that pipes the chain's data to a writable stream
 Note: Despite pipe calls usually returning the piped stream, this plugin, like all the other chainy actions, returns the chain.
 
 ``` javascript
-require('chainy-core').create().require('set pipe')
+require('chainy').create().require('set pipe')
 	.set('some data')
 	.pipe(
 		require('fs').createWriteStream(process.cwd()+'/out.txt')
@@ -54,7 +54,7 @@ require('chainy-core').create().require('set pipe')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-pipe')`
 - Install: `npm install --save chainy-plugin-pipe`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-pipe@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-pipe@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-pipe')`
@@ -102,8 +102,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-pipe/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/pipe/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-pipe/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
