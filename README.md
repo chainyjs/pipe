@@ -54,7 +54,7 @@ require('chainy').create().require('set pipe')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-pipe')`
 - Install: `npm install --save chainy-plugin-pipe`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-pipe@1.0.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-pipe@1.0.1`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-pipe')`

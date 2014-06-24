@@ -1,7 +1,7 @@
 {
   "title": "pipe action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-pipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chainy action that pipes the chain's data to a writable stream",
   "homepage": "https://github.com/chainy-plugins/pipe",
   "keywords": [
@@ -41,7 +41,7 @@
     "url": "http://github.com/chainy-plugins/pipe.git"
   },
   "engines": {
-    "node": ">=0.4"
+    "node": ">=0.10"
   },
   "dependencies": {},
   "peerDependencies": {

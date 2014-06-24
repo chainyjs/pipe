@@ -1,5 +1,8 @@
 # History
 
+## v1.0.1 June 24, 2014
+- Only support node 0.10 and up
+
 ## v1.0.0 June 23, 2014
 - Initial official release
 
